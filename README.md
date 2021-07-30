@@ -4,6 +4,7 @@
 
 This bot is a scanner for triangular arbitrage patterns, for the binance exchange.
 All the combinations are made by the bot, and it continuously performs the calculations on all the pair to detect arbitrages.
+
 When arbitrages are detected, they are recorded in a log with the triangle name, the gain and the type of arbitrage: long or short.
 The infos.csv file is an exemple of what the log looks like.
 
