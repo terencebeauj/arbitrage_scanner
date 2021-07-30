@@ -9,3 +9,5 @@ When arbitrages are detected, they are recorded in a log with the triangle name,
 The infos.csv file is an exemple of what the log looks like.
 
 You should at least, use the method presented here to deal with your keys: export them in the .env file, and then put this file into the .gitignore. Because it is of great importance that only you can access your private key, otherwise your funds could be stolen anytime.
+
+This is a scanner EA, we have developed a stronger bot that use multi-threading and websockets, and performs real trades on binance (or any exchange actually), but it is in a private repository and is under developement.
